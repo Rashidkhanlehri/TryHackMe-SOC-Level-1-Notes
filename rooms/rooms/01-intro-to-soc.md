@@ -30,7 +30,7 @@ Understand basic SOC roles, SIEM purpose, and common log sources.
 ```bash
 # Example to view Linux auth logs
 sudo tail -n 200 /var/log/auth.log
-# Grep for failed logins
+# Grep for failed loginss
 sudo grep "Failed password" /var/log/auth.log
 ```
 
